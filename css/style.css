@@ -1,0 +1,71 @@
+/* Стили обнуления */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+/* --------------- */
+
+.title {
+	color: teal;
+}
+.item .title {
+	color: tomato;
+}
+p {
+	color: rgb(77, 74, 255);
+}
+.item p{
+	color: rgb(163, 0, 196);
+}
+.span ~ span {
+	color: fuchsia;
+}
+.title + p {
+	color: saddlebrown;
+}
+span {
+	color: chartreuse;
+}
+.item span {
+	color: turquoise;
+}
+#red {
+	color: red;
+}
+.list {
+	color: violet;
+}
+.text > ul {
+	color: orange;
+}
+.link {
+	color: rgb(159, 228, 0);
+}
+.footer p {
+	color: tan;
+}
